@@ -1,5 +1,5 @@
 var makeModules = require('broccoli-dist-es6-module');
-var templateFilter = require('broccoli-template-compiler');
+var templateFilter = require('ember-cli-htmlbars');
 
 var templates = templateFilter('lib', {module: true});
 module.exports = makeModules(templates, {
@@ -10,4 +10,3 @@ module.exports = makeModules(templates, {
     'ember': 'Ember'
   }
 });
-
