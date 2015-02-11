@@ -25,4 +25,4 @@ exports["default"] = Ember.Handlebars.template({"1":function(depth0,helpers,part
   if (stack1 != null) { data.buffer.push(stack1); }
   data.buffer.push("\n");
   return buffer;
-},"useData":true})
+},"useData":true});

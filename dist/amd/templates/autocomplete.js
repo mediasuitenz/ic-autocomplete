@@ -28,5 +28,5 @@ define(
       if (stack1 != null) { data.buffer.push(stack1); }
       data.buffer.push("\n");
       return buffer;
-    },"useData":true})
+    },"useData":true});
   });
